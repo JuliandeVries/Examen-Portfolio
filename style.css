@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.1)),url(eten.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+}
+.titel{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.titel h1{
+    color: white;
+    font-size: 70px;
+}
+.link{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid white;
+}
+.button{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 1px;
+}
+.container{
+    background-color: white;
+    margin: 200px;
+    box-shadow:10px 15px 20px rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.container-time{
+    background-color:rgba(0,0,0,0.95);
+    padding: 60px;
+    border: 3px dashed rgb(28, 129, 28);
+    outline-offset: -30px;
+    text-align: center;
+}
+.heading{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.heading-days{
+    color: rgb(28, 129, 28);
+    font-size: 30px;
+}
+.heading-phone{
+    font-size: 20px;
+}
+.container-form{
+    padding: 20px 0;
+    margin: 0 auto;
+    color: black;
+}
+form{
+    display: grid;
+    grid-row-gap: 20px;
+}
+.form-field{
+    display: flex;
+    justify-content: space-between;
+}
+.dropbtn{
+    background:space;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:rgb(28, 129, 28);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color:lightgreen;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.logo{
+    width: 300px;  
+    height: auto;  
+    text-align: center;  
+    padding: 15px 20px;  
+    float: left;
+}

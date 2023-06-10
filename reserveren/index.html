@@ -31,6 +31,7 @@
             </div>
         </div>
     </header>
+    <form action="connect.php" method="post"></form>
     <div class="container">
         <div class="container-time">
             <h2 class="heading">Openingstijden</h2>
@@ -48,23 +49,23 @@
 
                 <div class="form-field">
                     <p>Naam</p>
-                    <input type="text" placeholder="Naam" required>
+                    <input type="text" placeholder="Naam" required name="Naam">
                 </div>
                 <div class="form-field">
                     <p>Email</p>
-                    <input type="text" placeholder="Email" required>
+                    <input type="text" placeholder="Email" required name="email">
                 </div>
                 <div class="form-field">
                     <p>Datum</p>
-                    <input type="date" required>
+                    <input type="date" required name="datum">
                 </div>
                 <div class="form-field">
                     <p>Tijd</p>
-                    <input type="time" required>
+                    <input type="time" required name="tijd">
                 </div>
                 <div class="form-field">
                     <p>Hoeveel personen?</p>
-                    <select name="select" id="#">
+                    <select name="select" id="#" name="personen">
                         <option value="1">1 Persoon</option>
                         <option value="2">2 Personen</option>
                         <option value="3">3 Personen</option>

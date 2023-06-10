@@ -5,7 +5,7 @@
     $tijd = $_POST['tijd'];
     $personen = $_POST['personen'];
 
-    $conn = new mysqli('localhost', 'root', 'password', 'test');
+    $conn = new mysqli('localhost', 'root', '', 'test');
     if($conn->connect_error){
         die('Connnection Failed : '.$conn->connect_error);
     }else{

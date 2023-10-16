@@ -1,19 +1,18 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /*Algemeen */
 }
 header{
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.1)),url(eten.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
-    color: white;
-}
+    color: white;} /*De header met onderandere de navbar */
 ul{
     list-style-type: none;
     float: right;
-    margin-top: 25px;
+    margin-top: 25px; /*ul en li zijn voor de navbar */
 }
 ul li{
     display: inline-block;
@@ -28,7 +27,7 @@ ul li a{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*Titel is voor de tekst midden in het scherm op de reserveringspagina */
 }
 .titel h1{
     color: white;
@@ -44,7 +43,7 @@ ul li a{
     text-decoration: none;
     color: white;
     padding: 10px 30px;
-    border: 1px solid white;
+    border: 1px solid white; /*De button midden in het scherm naar reserveringspagina */
 }
 .button{
     text-decoration: none;
@@ -56,12 +55,12 @@ body{
     color: white;
     letter-spacing: 1px;
 }
-.container{
+.container{ 
     background-color: white;
     margin: 200px;
     box-shadow:10px 15px 20px rgba(0,0,0,0.1);
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 40% 60%; /*Deze en de andere container css code is voor het reserverings menu */
 }
 .container-time{
     background-color:rgba(0,0,0,0.95);
@@ -70,9 +69,14 @@ body{
     outline-offset: -30px;
     text-align: center;
 }
+.container-form{
+    padding: 20px 0;
+    margin: 0 auto;
+    color: black;
+}
 .heading{
     font-size: 35px;
-    text-transform: uppercase;
+    text-transform: uppercase; /*Deze headings zijn voor de tekst in de container voor het reserveringsmenu zoals de openingstijden */
 }
 .heading-days{
     color: rgb(28, 129, 28);
@@ -81,14 +85,9 @@ body{
 .heading-phone{
     font-size: 20px;
 }
-.container-form{
-    padding: 20px 0;
-    margin: 0 auto;
-    color: black;
-}
-form{
+form{ 
     display: grid;
-    grid-row-gap: 20px;
+    grid-row-gap: 20px; /*Deze forms zijn voor de container van het reserveringsmenu */
 }
 .form-field{
     display: flex;
@@ -103,7 +102,7 @@ form{
 }
 .dropdown{
     position: relative;
-    display: inline-block;
+    display: inline-block; /*Deze en de andere css code met dropdown zijn voor het menu in de navbar naar de verschillende menu's */
 }
 .dropdown-content{
     display: none;
@@ -129,5 +128,5 @@ form{
     height: auto;  
     text-align: center;  
     padding: 15px 20px;  
-    float: left;
+    float: left; /*Voor het logo linksbovenin */
 }

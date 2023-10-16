@@ -31,14 +31,14 @@
             <h1>Lekker eten!</h1>
         </div>
         <div class="link"> <!--button naar reserveringspagina --> 
-           <a href="reserveren.html" class="btn">Reserveer nu!</a>
+           <a href="reserveren.php" class="btn">Reserveer nu!</a>
         </div>
         <div class="php" style="text-align: center;"> <!--php code voor de datum --> 
             De datum van vandaag is: <b><?php echo date('d/m/Y') ?>
         </div>
     </header>
-    <!--<script> //javascript melding
+    <script> //javascript melding
         alert("Deze website maakt gebruikt van cookies.")
-    </script>-->
+    </script>
 </body>
 </html>

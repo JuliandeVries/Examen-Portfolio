@@ -27,12 +27,21 @@
                 <li><a href="contact.php">Contact</a></li>
             </ul>
             <div class="titel"> <!--tekst midden van het scherm --> 
-                <h2>Uw reservering is gelukt!</h2>
+                <?php 
+                    echo "De reservering is op de naam: ".$_POST["naam"];
+                    echo "<br>";
+                    echo "De reservering is gemaakt met dit e-mailadres: ".$_POST["email"]; 
+                    echo "<br>";
+                    echo "De reservering staat op deze datum: ".$_POST["datum"]; 
+                    echo "<br>";
+                    echo "De reservering staat op deze tijd: ".$_POST["tijd"]; 
+                ?>
             </div>
         </div>
             <div class="php" style="text-align: center;"> <!--php code voor de datum --> 
                 De datum van vandaag is: <b><?php echo date('d/m/Y') ?>
-            </div>
+            </div>    
     </header>
+
 </body>
 </html>

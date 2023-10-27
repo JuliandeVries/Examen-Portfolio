@@ -45,25 +45,25 @@
             <hr>
             <h4 class="heading-phone">Bel ons op: 06-12345678</h4>
         </div>
-        <div class="container-form">
+        <form class="container-form" action="gelukt.php" method="post">
             <form action="#">
                 <h2 class="heading">Reserveren</h2>
 
                 <div class="form-field">
                     <p>Naam</p>
-                    <input type="text" placeholder="Naam" required name="Naam"> <!--naam van reservering --> 
+                    <input type="text" placeholder="Naam" name="naam" required> <!--naam van reservering --> 
                 </div>
                 <div class="form-field">
                     <p>Email</p>
-                    <input type="text" placeholder="Email" required name="email"> <!--email van de reservering --> 
+                    <input type="text" placeholder="Email" name="email" required> <!--email van de reservering --> 
                 </div>
                 <div class="form-field">
                     <p>Datum</p>
-                    <input type="date" required name="datum"> <!--datum van de reservering --> 
+                    <input type="date" name="datum" required> <!--datum van de reservering --> 
                 </div>
                 <div class="form-field">
                     <p>Tijd</p>
-                    <input type="time" required name="tijd"> <!--tijd van de reservering --> 
+                    <input type="time" name="tijd" required> <!--tijd van de reservering --> 
                 </div>
                 <div class="form-field">
                     <p>Hoeveel personen?</p>
@@ -80,7 +80,7 @@
                 </div>
                     <button class="button" formaction="gelukt.php">Reserveren</button> <!--button om je reservering compleet te maken --> 
             </form>
-        </div>
+        </form>
     </div>
 </body>
 </html>
